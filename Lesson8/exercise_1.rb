@@ -1,4 +1,8 @@
-require "csv"
-users = CSV.read("exercise_1.csv", headers: true)
-cities = users.by_col["city"]
-puts cities
+require "terminal-table"
+headings = ["Name", "City"]
+users = [
+	["James", "Sydney"],
+	["Chris", "New York"]
+]
+table = Terminal::Table.new rows: users,  headings: headings
+puts table
