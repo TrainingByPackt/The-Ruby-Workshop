@@ -5,3 +5,6 @@ class MyClass
 end
 
 obj1 = MyClass.new.xyz
+
+def method_missing (method_name, *args, &block)
+end
