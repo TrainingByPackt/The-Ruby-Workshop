@@ -10,6 +10,6 @@ class VoteController < Controller
     self.voting_machine.record_vote(@category, @voter, @votee)
 
     log "Vote recorded!"
-    log_to_file("Vote recorded - Voter: #{@voter} Votee: #{@votee} Category: #{@category}")
+    log_to_file("Vote recorded - Voter: #{@voter} Votee: #{@votee} Category: #{@category}", "info")
   end
 end
