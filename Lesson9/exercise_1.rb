@@ -1,7 +1,9 @@
 require 'logger'
 
 logger = Logger.new(STDOUT)
-logger.debug('debug log')
-logger.info('info log')
-logger.warn('warn log')
-logger.error('error log')
+logger.info("Starting Application")
+begin
+  0 / 0
+rescue StandardError => e
+  logger.error(e.message)
+end
