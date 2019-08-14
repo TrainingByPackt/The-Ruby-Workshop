@@ -1,4 +1,4 @@
 require 'logger'
 
 logger = Logger.new(STDOUT)
-logger.debug("Hey there, nice log")
+logger.debug("User 23643 logged in")
