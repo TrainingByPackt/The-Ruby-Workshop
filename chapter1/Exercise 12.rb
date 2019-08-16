@@ -1,6 +1,6 @@
-> title = "My Favorite book is Java Fundamentals" 
+> title = "My favorite book is Java Fundamentals" 
 
- => "My Favorite book is Java Fundamentals" 
+ => "My favorite book is Java Fundamentals" 
 
  
 
