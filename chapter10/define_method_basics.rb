@@ -17,7 +17,7 @@ class Factory
   end
   
   factory = Factory.new
-  puts factory.operate_machinery("manchester")
+  puts factory.operate_machinery("Manchester")
   puts factory.package_products("healthcare")
   puts factory.send_for_distribution("medical stores")
   puts factory.generate_exit_pass("trucks")
