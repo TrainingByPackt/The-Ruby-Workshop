@@ -25,7 +25,7 @@ class VotingMachine
   end
 
   def sorted_results
-    results.sort_by(&:last).reverse
+    results.map{|k, v| {k => v.sort_by(&:last).reverse}}
   end
 
   private

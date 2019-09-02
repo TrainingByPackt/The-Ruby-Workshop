@@ -29,6 +29,7 @@ class TestVotingMachine < Minitest::Test
     machine.record_vote(category2, "Jackie", "Sam")
 
     assert_equal machine.results.class, Hash
+    assert_equal machine.sorted_results.class, Array
     assert_equal machine.results.keys, [category1, category2]
 
     assert_raises VotingMachine::InvalidCategory do
