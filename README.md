@@ -1,3 +1,8 @@
+[![GitHub issues](https://img.shields.io/github/issues/TrainingByPackt/The-PHP-Workshop.svg)](https://github.com/TrainingByPackt/The-Ruby-Workshop/issues)
+[![GitHub forks](https://img.shields.io/github/forks/TrainingByPackt/The-PHP-Workshop.svg)](https://github.com/TrainingByPackt/The-Ruby-Workshop/network)
+[![GitHub stars](https://img.shields.io/github/stars/TrainingByPackt/The-PHP-Workshop.svg)](https://github.com/TrainingByPackt/The-Ruby-Workshop/stargazers)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/TrainingByPackt/The-Ruby-Workshop/pulls)
+
 # The Ruby Workshop
 You already know you want to learn Ruby, but which approach works best for you? Whether you want to kick-start your career as a web developer, build advanced applications with minimum code, or reduce code-complexity using RubyGems, you’ll find that The Ruby Workshop is heavily geared towards getting you build-ready for the real world. A step-by-step approach to learning helps you develop and reinforce key skills in a way that feels engaging and rewarding, without dragging you down into long-running lectures on dry, underlying theory. We use real examples that lead to real results. 
 
