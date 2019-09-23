@@ -9,7 +9,7 @@ Cut through the noise and get real results in this hands-on, step-by-step approa
 * Keep your development process bug-free with various Ruby testing methods 
 * Create a blogging application with Ruby on Rails and host it on a cloud application platform like Heroku 
 
-## The examples of this title has been implemented in the Windows/MAC/Linux operating system.
+** The examples of this title has been implemented in the Windows/MAC/Linux operating system. **
 
 ### Software Requirement
 * Ruby Version2.6
