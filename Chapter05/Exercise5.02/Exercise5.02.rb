@@ -1,11 +1,7 @@
 class SocialShare 
 
- 
-
 end
 class SocialShare 
-
- 
 
   @@platforms = { 
 
@@ -21,8 +17,6 @@ end
 class SocialShare 
 
  # @@platforms code omitted for brevity 
-
- 
 
   def initialize(platform, url, title, summary = "") 
 
@@ -50,18 +44,12 @@ class SocialShare
 
   def url 
 
- 
-
     @url ||= generate_url 
 
   end 
 
 end 
 class SocialShare 
-
- 
-
- 
 
   platforms = { 
 
@@ -73,23 +61,17 @@ class SocialShare
 
   } 
 
- 
-
   def initialize(platform, title, url, summary = "") 
 
     @platform, @title, @share_url, @summary = platform.to_sym, title, url, summary 
 
   end 
 
-     
-
   def url 
 
     @url ||= generate_url 
 
   end 
-
- 
 
   def generate_url 
 
@@ -99,13 +81,9 @@ class SocialShare
 
 end 
 
- 
-
 #Then, in an IRB console, let's set up some variables that we will reuse when testing: 
 
 title = "Check out this great coding website!" 
-
- 
 
 url = "packt.com" 
 [:twitter, :facebook, :linkedin].each.do |platform| 
@@ -115,8 +93,6 @@ puts SocialShare.new(platform, title, url).url
 end 
 class SocialShare 
 
- 
-
   def self.url(platform, title, url, summary = "") 
 
     new(platform, title, url, summary).url 
@@ -125,8 +101,6 @@ class SocialShare
 
 end 
 class SocialShare 
-
- 
 
   def self.get_links_for_all(title, url, summary = "") 
 
