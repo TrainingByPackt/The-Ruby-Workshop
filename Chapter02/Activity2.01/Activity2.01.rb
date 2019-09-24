@@ -1,9 +1,6 @@
 rand 2 
 
 def roll 
-
- 
-
   rand(6) + 1 
 
 end 
@@ -11,20 +8,13 @@ end
 puts roll 
 
 def roll(sides) 
-
- 
-
   rand(sides) + 1 
 
 end 
 
- 
-
 puts roll(6) 
 
 def roll(sides, number=1) 
-
- 
 
   roll_array = [] 
 
@@ -50,14 +40,11 @@ def roll(sides, number=1)
 
 end 
 
- 
-
 puts "Rolling a 5 sided die!" 
 
 puts roll(5) 
 
  
-
 puts "Rolling two 6 sided dice!" 
 
 puts roll(6, 2) 
