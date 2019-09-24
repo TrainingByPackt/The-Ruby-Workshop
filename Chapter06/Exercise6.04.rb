@@ -1,7 +1,5 @@
 class PaymentTypes 
 
- 
-
   include Enum 
 
   DATA = [ 
@@ -16,10 +14,6 @@ class PaymentTypes
 
 end 
 module Enum 
-
- 
-
- 
 
   def self.included(base_class) 
 
@@ -63,8 +57,6 @@ pt = PaymentTypes.new(nil, :foo, "Huh?")
 
 module ClassMethods 
 
- 
-
     def all 
 
       @all ||= begin 
@@ -91,23 +83,17 @@ module ClassMethods
 
   ] 
 
- 
-
   def wire? 
 
     id == WIRE 
 
   end 
 
- 
-
   def check? 
 
     id == CHECK 
 
   end 
-
- 
 
   def credit? 
 
@@ -118,17 +104,11 @@ module ClassMethods
 end 
 module Enum 
 
- 
-
- 
-
   def is_type?(type) 
 
     name.to_sym == type.to_sym 
 
   end 
-
- 
 
   def method_missing(method, *args, &block) 
 
