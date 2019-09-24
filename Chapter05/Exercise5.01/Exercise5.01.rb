@@ -1,27 +1,15 @@
 class User 
-
- 
-
 end 
-
- 
 
 class Company 
-
 end 
 
- 
-
 class Department 
-
 end 
 
 class User 
 
   attr_accessor :name, :address, :department 
-
- 
-
   def initialize(name, address, department) 
 
     @name = name 
@@ -34,13 +22,9 @@ class User
 
 end 
 
- 
-
 class Company 
 
   attr_accessor :name, :url, :departments 
-
- 
 
   def initialize(name, url) 
 
@@ -52,13 +36,9 @@ class Company
 
 end 
 
- 
-
 class Department 
 
   attr_accessor :name, :users 
-
- 
 
   def initialize(name) 
 
@@ -77,11 +57,7 @@ mary = User.new("Mary Jane", "10 Independence Blvd", engineering)
 c.departments = [sales, engineering] 
 class Company 
 
- 
-
   attr_accessor :name, :url, :departments 
-
- 
 
   def initialize(name, url) 
 
@@ -90,8 +66,6 @@ class Company
     @url = URI.parse(url) 
 
   end 
-
- 
 
   def users 
 
@@ -104,12 +78,7 @@ end
 #code for seeding the users instance variable at object creation
 class Department 
 
- 
-
   attr_accessor :name, :users 
-
-   
-
   def initialize(name) 
 
     @name = name 
@@ -123,19 +92,13 @@ end
 #code for seeding the users instance variable at runtime
 class Department 
 
- 
-
   attr_accessor :name, :users 
-
- 
 
   def initialize(name) 
 
     @name = name 
 
   end 
-
- 
 
   def users 
 
@@ -150,11 +113,7 @@ class Department
 end 
 class User 
 
- 
-
   attr_accessor :name, :address, :department 
-
- 
 
   def initialize(name, address, department) 
 
@@ -171,8 +130,6 @@ class User
 end 
 # setup data 
 
- 
-
 c = Company.new("Acme Inc", "https://example.com") 
 
 sales = Department.new("Sales") 
@@ -185,8 +142,6 @@ mary = User.new("Mary Jane", "10 Independence Blvd", engineering)
 
 c.departments = [sales, engineering] 
 
- 
-
 # play with new methods 
 
 c.users 
@@ -196,13 +151,9 @@ sales.users
 engineering.users 
 class User 
 
- 
-
   attr_accessor :name, :address 
 
   attr_reader :department 
-
- 
 
   def initialize(name, address, department) 
 
@@ -215,8 +166,6 @@ class User
     department.users << self 
 
   end 
-
- 
 
   # New method to keep the department's users up to date 
 
@@ -234,8 +183,6 @@ class User
 
 end 
 c = Company.new("Acme Inc", "https://example.com") 
-
- 
 
 engineering = Department.new("Engineering") 
 
