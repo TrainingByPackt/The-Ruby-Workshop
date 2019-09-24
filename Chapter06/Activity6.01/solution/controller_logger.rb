@@ -24,3 +24,8 @@ module ControllerLogger
     return return_val
   end
 end
+
+require_relative './controller_logger'
+class Controller
+  prepend ControllerLogger
+end
