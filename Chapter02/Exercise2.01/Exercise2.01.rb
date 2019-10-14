@@ -15,7 +15,7 @@ colors_2.push('blue')
 
 #selecting last element of the array
 colors_1 = ['violet', 'indigo', 'blue', 'green']
-colors_1.
+colors_1.last
 
 #removing last elemnt from the array
 colors_1 = ['violet', 'indigo', 'blue', 'green']
